@@ -1,0 +1,124 @@
+{
+  "shoes": [
+    {
+      "id": "1",
+      "title": "Bata Comfit Men's Formal Leather Shoes",
+      "description": "Premium leather formal shoes with cushioned insole for office and events.",
+      "price": "৳ 4,990"
+    },
+    {
+      "id": "2",
+      "title": "Apex Women's Elegant Heels",
+      "description": "Stylish block heels with soft lining for long wear and comfort.",
+      "price": "৳ 3,450"
+    },
+    {
+      "id": "3",
+      "title": "Nike Air Max 270",
+      "description": "Sporty sneakers with breathable mesh and visible Air cushioning.",
+      "price": "৳ 13,500"
+    },
+    {
+      "id": "4",
+      "title": "Adidas Duramo SL",
+      "description": "Lightweight running shoes with Cloudfoam midsole for daily comfort.",
+      "price": "৳ 7,200"
+    },
+    {
+      "id": "5",
+      "title": "Apex Men's Casual Loafers",
+      "description": "Slip-on casual loafers made from soft suede for relaxed wear.",
+      "price": "৳ 2,990"
+    },
+    {
+      "id": "6",
+      "title": "Bata Power Play Running Shoes",
+      "description": "Durable sports shoes with EVA sole for maximum performance.",
+      "price": "৳ 2,750"
+    },
+    {
+      "id": "7",
+      "title": "Woodland Leather Hiking Boots",
+      "description": "Rugged outdoor boots with water-resistant finish and high-traction sole.",
+      "price": "৳ 8,900"
+    },
+    {
+      "id": "8",
+      "title": "Apex Men's Monk Strap Dress Shoes",
+      "description": "Elegant leather monk strap design for formal occasions.",
+      "price": "৳ 5,650"
+    },
+    {
+      "id": "9",
+      "title": "Lotto Men's Sports Trainers",
+      "description": "Comfortable trainers with breathable upper and cushioned footbed.",
+      "price": "৳ 3,250"
+    },
+    {
+      "id": "10",
+      "title": "Adidas Superstar",
+      "description": "Classic shell-toe sneakers with timeless streetwear appeal.",
+      "price": "৳ 9,800"
+    },
+    {
+      "id": "11",
+      "title": "Bata Sandak Comfort Slippers",
+      "description": "Soft and durable slippers for everyday home use.",
+      "price": "৳ 1,150"
+    },
+    {
+      "id": "12",
+      "title": "Apex Ladies Flat Sandals",
+      "description": "Minimalist flat sandals with soft footbed for daily wear.",
+      "price": "৳ 1,850"
+    },
+    {
+      "id": "13",
+      "title": "Nike Revolution 6",
+      "description": "Everyday running shoes with lightweight cushioning and breathable mesh.",
+      "price": "৳ 6,900"
+    },
+    {
+      "id": "14",
+      "title": "Apex Men's Leather Moccasins",
+      "description": "Hand-stitched leather moccasins with soft lining for casual elegance.",
+      "price": "৳ 3,950"
+    },
+    {
+      "id": "15",
+      "title": "Bata Comfit Ladies Pump Shoes",
+      "description": "Classic pumps with cushioned insoles for all-day comfort.",
+      "price": "৳ 2,650"
+    },
+    {
+      "id": "16",
+      "title": "Adidas Ultraboost 22",
+      "description": "High-performance running shoes with Primeknit upper and Boost midsole.",
+      "price": "৳ 15,500"
+    },
+    {
+      "id": "17",
+      "title": "Apex Men's Leather Sandals",
+      "description": "Premium leather sandals for casual and semi-formal wear.",
+      "price": "৳ 2,990"
+    },
+    {
+      "id": "18",
+      "title": "Bata Power Hiking Shoes",
+      "description": "Sturdy hiking shoes with anti-slip sole for outdoor activities.",
+      "price": "৳ 4,200"
+    },
+    {
+      "id": "19",
+      "title": "Nike Air Force 1",
+      "description": "Legendary streetwear sneakers with durable leather upper.",
+      "price": "৳ 10,200"
+    },
+    {
+      "id": "20",
+      "title": "Apex Women's Casual Sneakers",
+      "description": "Trendy sneakers with breathable fabric and cushioned sole.",
+      "price": "৳ 2,750"
+    }
+  ]
+}
