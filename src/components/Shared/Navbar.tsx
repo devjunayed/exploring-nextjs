@@ -48,6 +48,9 @@ const links = (
       <Link href={"/"}>Home</Link>
     </li>
     <li>
+      <Link href={"/products"}>Products</Link>
+    </li>
+    <li>
       <Link href={"/about"}>About</Link>
     </li>
     <li>

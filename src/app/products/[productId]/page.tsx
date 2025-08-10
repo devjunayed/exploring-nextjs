@@ -1,11 +1,15 @@
 import React from 'react'
 
-const DynamicPage = ({params}:{params: {productId: string}}) => {
-    console.log(params)
+type PageProps = {
+  params: Promise<{ productId: string }>;
+};
+
+const ProductsPage = async({params}:PageProps) => {
+    const {productId} =await params;
     
   return (
-    <div>DynamicPage {params.productId}</div>
+    <div>ProductsPage {productId}</div>
   )
 }
 
-export default DynamicPage
+export default ProductsPage
