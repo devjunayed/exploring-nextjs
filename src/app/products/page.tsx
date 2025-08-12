@@ -7,12 +7,20 @@ const ProductsPage = async () => {
   // const res = await fetch("http://localhost:5000/shoes", {
   //   cache: "force-cache",
   // });
-  const res = await fetch("http://localhost:5000/shoes");
+  // const res = await fetch("http://localhost:5000/shoes");
+
+
+  // Incremental Static Generation
+  const res = await fetch("http://localhost:5000/shoes", {
+    next: {
+      revalidate: 5,
+    }
+  })
   const shoes = await res.json();
 
   return (
     <div className="w-full flex flex-col justify-center mx-10">
-      <h1 className="text-4xl my-8 w-full text-center ">All Products</h1>
+      <h1 className="text-4xl my-8 w-full text-center ">All Products aljsdflsd</h1>
       <div className="flex gap-4  flex-wrap justify-center items-stretch ">
         {shoes.map((shoe: typeof shoes) => (
           <div key={shoe.id} className="flex-grow basis-80">
