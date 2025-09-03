@@ -59,6 +59,12 @@ const links = (
     <li>
       <Link href={"/suspense"}>Suspense</Link>
     </li>
+    <li>
+      <Link href={"/parallel"}>Parallel Route</Link>
+    </li>
+    <li>
+      <Link href={"/parallel/posts/single"}>Single Parallel</Link>
+    </li>
     <li className="">
       <details>
         <summary>
