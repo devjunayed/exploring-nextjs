@@ -1,7 +1,9 @@
+"use client"
 /* eslint-disable @next/next/no-img-element */
+import { useGetProductsQuery } from "@/redux/api/baseApi";
 import React from "react";
 
-const ProductsPage = async () => {
+const ProductsPage =  () => {
   // SSG (Static Site Generation)
 
   // const res = await fetch("http://localhost:5000/shoes", {
@@ -11,18 +13,27 @@ const ProductsPage = async () => {
 
 
   // Incremental Static Generation
-  const res = await fetch("http://localhost:5000/shoes", {
-    next: {
-      revalidate: 5,
-    }
-  })
-  const shoes = await res.json();
+  // const res = await fetch("http://localhost:5000/shoes", {
+  //   next: {
+  //     revalidate: 5,
+  //   }
+  // })
 
+  // server site rendering
+  // const res = await fetch("http://localhost:5000/shoes", {
+  //   cache: "no-store"
+  // })
+  // const shoes = await res.json();
+
+  // rendering with Redux toolkit
+  const {data: shoes, isLoading, isError} = useGetProductsQuery("");
+
+  // throw new Error('This is fucking error');
   return (
     <div className="w-full flex flex-col justify-center mx-10">
-      <h1 className="text-4xl my-8 w-full text-center ">All Products aljsdflsd</h1>
+      <h1 className="text-4xl my-8 w-full text-center ">All Products</h1>
       <div className="flex gap-4  flex-wrap justify-center items-stretch ">
-        {shoes.map((shoe: typeof shoes) => (
+        {shoes?.map((shoe: typeof shoes) => (
           <div key={shoe.id} className="flex-grow basis-80">
             <div className="card  bg-base-100 flex-col h-full flex w-96 shadow-sm">
               <figure>

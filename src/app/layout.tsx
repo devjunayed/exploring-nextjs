@@ -1,12 +1,11 @@
 import type { Metadata } from "next";
-import {Playwrite_AU_QLD} from "next/font/google";
+import { Playwrite_AU_QLD } from "next/font/google";
 
 import "./globals.css";
 import Navbar from "@/components/Shared/Navbar";
+import Providers from "@/lib/Providers";
 
 const playwrite = Playwrite_AU_QLD();
-
-
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -20,15 +19,14 @@ export default function RootLayout({
 }>) {
   return (
     <html data-theme="light" lang="en">
-      <body
-        className={`${playwrite.className}  antialiased`}
-      >
-        <Navbar />
-       
-        <div className="min-h-[calc(100vh-4rem)] flex justify-center items-center">
+      <body className={`${playwrite.className}  antialiased`}>
+        <Providers>
+          <Navbar />
 
-        {children}
-        </div>
+          <div className="min-h-[calc(100vh-4rem)] flex justify-center items-center">
+            {children}
+          </div>
+        </Providers>
       </body>
     </html>
   );

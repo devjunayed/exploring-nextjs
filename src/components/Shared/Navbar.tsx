@@ -56,6 +56,9 @@ const links = (
     <li>
       <Link href={"/contact"}>Contact</Link>
     </li>
+    <li>
+      <Link href={"/suspense"}>Suspense</Link>
+    </li>
     <li className="">
       <details>
         <summary>
